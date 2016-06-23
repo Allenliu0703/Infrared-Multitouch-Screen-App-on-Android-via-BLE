@@ -1,0 +1,61 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:3:5-38
+	android:versionName
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml
+		INJECTED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml
+		INJECTED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:8:9-35
+uses-feature#android.hardware.bluetooth_le
+ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:10:2-86
+	android:required
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:10:61-84
+	android:name
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:10:16-60
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:11:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:12:22-71
+application
+ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:14:5-28:19
+	android:label
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:17:9-41
+	android:allowBackup
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:15:9-35
+	android:icon
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:16:9-45
+	android:theme
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:18:9-40
+activity#com.example.irmtbletest.MainActivity
+ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:19:9-27:20
+	android:label
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:21:13-45
+	android:name
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:20:13-64
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/AndroidManifest.xml:25:27-74

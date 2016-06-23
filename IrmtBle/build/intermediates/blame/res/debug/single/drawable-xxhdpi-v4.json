@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Allen/OneDrive/精研电子/Android/IrmtBle/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/Allen/OneDrive/精研电子/Android/IrmtBle/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Allen/OneDrive/精研电子/Android/code/IrmtBle/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/Allen/OneDrive/精研电子/Android/code/IrmtBle/res/drawable-xxhdpi/ic_launcher.png"
+    }
+]

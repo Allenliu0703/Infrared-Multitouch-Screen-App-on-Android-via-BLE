@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Allen/OneDrive/精研电子/Android/IrmtBle/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="795302eb0669134737cc41b4f6c19959ab004856">
+        <dex dex="/Users/Allen/OneDrive/精研电子/Android/IrmtBle/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_aa2476a8167e9c7ae7a1efb53b49fa9a78c2d17d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Allen/OneDrive/精研电子/Android/IrmtBle/libs/android-support-v4.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="/Users/Allen/OneDrive/精研电子/Android/IrmtBle/build/intermediates/transforms/dex/debug/folders/1000/2/android-support-v4_b5891bc203a76e8551dddc337f15ec3a38259409/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Allen/OneDrive/精研电子/Android/IrmtBle/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0c121b7cece6caa690d9feacdbfb5af9781315c2">
+        <dex dex="/Users/Allen/OneDrive/精研电子/Android/IrmtBle/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c358d1420740d4c45dc536e05b2a3e674c9fffc6/classes.dex" />
+    </item>
+
+</items>

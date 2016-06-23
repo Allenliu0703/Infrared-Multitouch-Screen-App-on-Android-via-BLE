@@ -1,0 +1,41 @@
+package com.example.irmtble;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.util.Log;
+import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+public class MainActivity extends Activity {
+    public IrmtInt mIrmtInt = new IrmtInt();
+    public BLCommService mBLCommService = null;
+    private Button mButton = null;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		Log.v("BLService", "OnCreate");
+		mButton = (Button)findViewById(R.id.button1);
+		mBLCommService = new BLCommService(this,mIrmtInt);
+		mBLCommService.userConnect("MTSeriBleA4", null, null);
+		//开始连接的按键
+		mButton.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+            	//byte [] sendmsg = {104,12,2,0,1,32,32,64,64,16,5,16,5,97};
+            	//mBLCommService.bleWrite(sendmsg);
+            	//Log.v("BLService", "OnWrite");
+            }
+        });
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+}

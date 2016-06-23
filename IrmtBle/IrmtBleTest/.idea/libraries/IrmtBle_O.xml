@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="IrmtBle_O">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/IrmtBle_O.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

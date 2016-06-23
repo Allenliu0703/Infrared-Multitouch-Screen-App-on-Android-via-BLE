@@ -1,0 +1,59 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:3:5-35
+	android:versionName
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml
+		INJECTED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml
+		INJECTED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:8:9-34
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:10:2-65
+	android:name
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:10:19-62
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:11:22-71
+action#android.bluetooth.device.action.PAIRING_REQUEST
+ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:12:5-78
+	android:name
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:12:13-75
+application
+ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:13:5-27:19
+	android:label
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:16:9-41
+	android:allowBackup
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:15:9-45
+	android:theme
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:17:9-40
+activity#com.example.irmttest.MainActivity
+ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:18:9-26:20
+	android:label
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:19:13-61
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/AndroidManifest.xml:24:27-74

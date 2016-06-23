@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/Allen/OneDrive/精研电子/Android/IrmtBLCTest/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/Users/Allen/OneDrive/精研电子/Android/IrmtBLCTest/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/Users/Allen/OneDrive/精研电子/Android/IrmtBLC/IrmtBLCTest/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Allen/Desktop/Code/IrmtBLCTest/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/Users/Allen/Desktop/Code/IrmtBLCTest/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Allen/Desktop/Code/IrmtBLCTest/D:\\Yuting\\Code\\IrmtBLCTest\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "/Users/Allen/Desktop/Code/IrmtBLCTest/D:\\Yuting\\Code\\IrmtBLCTest\\res\\drawable-mdpi\\ic_launcher.png"
+    }
+]

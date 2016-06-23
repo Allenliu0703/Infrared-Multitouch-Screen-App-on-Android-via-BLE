@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Allen/OneDrive/精研电子/Android/IrmtBle/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/Allen/OneDrive/精研电子/Android/IrmtBle/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/Allen/OneDrive/精研电子/Android/code/IrmtBle/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/Allen/OneDrive/精研电子/Android/code/IrmtBle/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/res/menu/main.xml"
+    }
+]

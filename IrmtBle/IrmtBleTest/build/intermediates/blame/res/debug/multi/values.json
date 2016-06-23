@@ -1,0 +1,485 @@
+[
+    {
+        "outputFile": "/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 52,
+                    "endOffset": 217
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 52,
+                        "endOffset": 156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 222,
+                    "endColumn": 48,
+                    "endOffset": 266
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 58,
+                        "endColumn": 48,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 271,
+                    "endColumn": 41,
+                    "endOffset": 308
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 216,
+                        "endColumn": 41,
+                        "endOffset": 253
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 313,
+                    "endColumn": 52,
+                    "endOffset": 361
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 162,
+                        "endColumn": 52,
+                        "endOffset": 210
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 366,
+                    "endLine": 14,
+                    "endColumn": 12,
+                    "endOffset": 652
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/res/values/styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 657,
+                    "endLine": 17,
+                    "endColumn": 12,
+                    "endOffset": 812
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBle/IrmtBleTest/res/values/styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/Allen/OneDrive/精研电子/Android/code/IrmtBle/IrmtBleTest/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/code/IrmtBle/IrmtBleTest/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/code/IrmtBle/IrmtBleTest/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 52,
+                    "endOffset": 217
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/code/IrmtBle/IrmtBleTest/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 52,
+                        "endOffset": 156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 222,
+                    "endColumn": 48,
+                    "endOffset": 266
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/code/IrmtBle/IrmtBleTest/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 58,
+                        "endColumn": 48,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 271,
+                    "endColumn": 41,
+                    "endOffset": 308
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/code/IrmtBle/IrmtBleTest/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 216,
+                        "endColumn": 41,
+                        "endOffset": 253
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 313,
+                    "endColumn": 52,
+                    "endOffset": 361
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/code/IrmtBle/IrmtBleTest/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 162,
+                        "endColumn": 52,
+                        "endOffset": 210
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 366,
+                    "endLine": 14,
+                    "endColumn": 12,
+                    "endOffset": 652
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/code/IrmtBle/IrmtBleTest/res/values/styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 657,
+                    "endLine": 17,
+                    "endColumn": 12,
+                    "endOffset": 812
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/code/IrmtBle/IrmtBleTest/res/values/styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/Allen/OneDrive/精研电子/Android/IrmtBle/IrmtBleTest/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/IrmtBle/IrmtBleTest/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/IrmtBle/IrmtBleTest/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 52,
+                    "endOffset": 217
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/IrmtBle/IrmtBleTest/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 52,
+                        "endOffset": 156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 222,
+                    "endColumn": 48,
+                    "endOffset": 266
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/IrmtBle/IrmtBleTest/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 58,
+                        "endColumn": 48,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 271,
+                    "endColumn": 41,
+                    "endOffset": 308
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/IrmtBle/IrmtBleTest/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 216,
+                        "endColumn": 41,
+                        "endOffset": 253
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 313,
+                    "endColumn": 52,
+                    "endOffset": 361
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/IrmtBle/IrmtBleTest/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 162,
+                        "endColumn": 52,
+                        "endOffset": 210
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 366,
+                    "endLine": 14,
+                    "endColumn": 12,
+                    "endOffset": 652
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/IrmtBle/IrmtBleTest/res/values/styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 657,
+                    "endLine": 17,
+                    "endColumn": 12,
+                    "endOffset": 812
+                },
+                "from": {
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/IrmtBle/IrmtBleTest/res/values/styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
+                }
+            }
+        ]
+    }
+]
