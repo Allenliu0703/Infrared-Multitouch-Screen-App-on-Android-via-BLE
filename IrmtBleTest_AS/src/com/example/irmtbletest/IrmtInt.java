@@ -64,40 +64,65 @@ public class IrmtInt implements IrmtInterface {
 
 	@Override
 	public void onTouchUp(List<TouchPoint> mTouchList) {
-		for (TouchPoint mTP:mTouchList) {
+        Log.v("onTouchUpList", "Enter");
+        for (TouchPoint mTP:mTouchList) {
 			Log.v(TAG, "onTouchUp  " + mTP.pointId + ": " + mTP.pointColor);
 			touchstatus[mTP.pointId] = -1;
-			//Log.v(TAG, "Point ID " + mTP.pointId + " touchstatus" + touchstatus[mTP.pointId]);
+            while (pointsCurNum < pointsNum) {
+                points[pointsCurNum][0] = mTP.pointX;
+                points[pointsCurNum][1] = mTP.pointY;
+                points[pointsCurNum][2] = mTP.pointId;
+                pointsCurNum++;
+                mmDrawView.pointIsSet(false);
+            }
+            if (pointsCurNum == pointsNum){
+                mmDrawView.pointIsSet(true);
+                mmDrawView.setPoints(points);
+                mmDrawView.draw(mCanvas);
+                mmDrawView.postInvalidate();
+                mmDrawView.pointIsSet(false);
+                pointsCurNum = 0;
+                for (int i = 0; i < pointsNum; i++){
+                    points[i][2] = 0;
+                    points[i][1] = 0;
+                    points[i][0] = 0;
+                }
+            }
 		}
 		mmDrawView.updateTouchStatus(touchstatus);
 	}
 
 	@Override
 	public void onTouchDown(List<TouchPoint> mTouchList) {
-		// TODO Auto-generated method stub
-        for (int i = 0; i < pointsNum; i++){
-            points[i][2] = 0;
-            points[i][1] = 0;
-            points[i][0] = 0;
-        }
+//        for (int i = 0; i < pointsNum; i++){
+//            points[i][2] = 0;
+//            points[i][1] = 0;
+//            points[i][0] = 0;
+//        }
 		for (TouchPoint mTP : mTouchList) {
 			if (pointsCurNum < pointsNum) {
 				points[pointsCurNum][0] = mTP.pointX;
 				points[pointsCurNum][1] = mTP.pointY;
 				points[pointsCurNum][2] = mTP.pointId;
 				pointsCurNum++;
-				Log.v(TAG, "onTouchDown X " + mTP.pointX + " Y " + mTP.pointY +" Touch ID " + mTP.pointId);
+                mmDrawView.pointIsSet(false);
+                Log.v(TAG, "onTouchDown X " + mTP.pointX + " Y " + mTP.pointY +" Touch ID " + mTP.pointId);
 				//touchstatus[mTP.pointId] = 1;
 				//Log.v(TAG, "Point ID " + mTP.pointId + " touchstatus" + touchstatus[mTP.pointId]);
 			}
 			if (pointsCurNum == pointsNum){
 				//mmDrawView.updateTouchStatus(touchstatus);
-				mmDrawView.setPoints(points);
-                Log.v("debug", "Enter setPoint Function");
+                mmDrawView.pointIsSet(true);
+                mmDrawView.setPoints(points);
 				mmDrawView.draw(mCanvas);
 				mmDrawView.postInvalidate();
-                mmDrawView.pointIsSet(true);
+                mmDrawView.pointIsSet(false);
 				pointsCurNum = 0;
+                for (int i = 0; i < pointsNum; i++){
+                    points[i][2] = 0;
+                    points[i][1] = 0;
+                    points[i][0] = 0;
+                }
 			}
 		}
 	}

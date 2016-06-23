@@ -4,32 +4,32 @@
     api-level="21"
     density="mdpi"
     format="7"
-    timestamp="23735617064413"
+    timestamp="33850104331743"
     token="5957108833295925599" >
 
     <task
         name="javac"
-        duration="50" />
+        duration="26" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="6" />
+        duration="3" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
     <artifact
         location="/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBleTest_AS/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
         type="DEX" />
 
-    <build timestamp="13964820937484" >
+    <build timestamp="28251878798166" >
         <artifact
             location="/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBleTest_AS/build/outputs/apk/IrmtBleTest_AS-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="23735617064413" >
+    <build timestamp="33850104331743" >
         <artifact
             location="/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBleTest_AS/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
             type="DEX" />

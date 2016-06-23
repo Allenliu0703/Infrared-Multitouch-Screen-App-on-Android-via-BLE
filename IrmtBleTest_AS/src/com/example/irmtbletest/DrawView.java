@@ -98,6 +98,7 @@ public class DrawView extends View {
                 //Log.v("PointSet Info", "ID = " + pointSet[i][2] + " X = " + pointSet[i][0] +" Y = " + pointSet[i][1]);
             }
         }
+
     }
 
     @Override
@@ -106,8 +107,8 @@ public class DrawView extends View {
         isFoundMatch = false;
         Log.v("Draw","xuebeng");
         for(int i = 1; i < 31; i++){
-            Log.v("TouchUp", " ID = " + i + " value = "+ isTouchUp[i]);
             if(isTouchUp[i]){
+                Log.v("TouchUp", " ID = " + i + " value = "+ isTouchUp[i]);
                 lastPoint[i][0] = 0;
                 lastPoint[i][1] = 0;
                 lastPoint[i][2] = 0;
@@ -115,17 +116,16 @@ public class DrawView extends View {
         }
         if (pointSet != null && pointArrayIsSet) {
             for (int i = 0; i<pointSet.length; i++) {
-                //Log.v("PointSet Info", "ID = " + pointSet[i][2] + " X = " + pointSet[i][0] +" Y = " + pointSet[i][1]);
+                Log.v("PointSet Info", "i = " + i + " ID = " + pointSet[i][2] + " X = " + pointSet[i][0] +" Y = " + pointSet[i][1]);
             }
             for(int i = 1; i < 31; i++){
                 if(lastPoint[i][2] == 1){
-                    //Log.v("lastPoint", " ID = " + i + " lastPoint = " + lastPoint[i][2]);
+                    Log.v("lastPoint", " ID = " + i + " lastPoint = " + lastPoint[i][2]);
                     for(int j = 0; j < pointSet.length; j++){
                         if(pointSet[j][2] == i){
-                            //Log.v("pointSet", "!!!!!!!!!!!!!!!!! ID = " + i);
                             canvas.drawLine(pointSet[j][1], pointSet[j][0], lastPoint[i][1], lastPoint[i][0], mPaint);
-                            //Log.v("line", "lastpoint i = " + i + " X = " + lastPoint[i][0]+ " Y = " + lastPoint[i][1]);
-                            //Log.v("line", "currentpoint X = " + pointSet[j][0]+ " Y = " + pointSet[j][1]);
+                            Log.v("line", "lastpoint i = " + i + " X = " + lastPoint[i][0]+ " Y = " + lastPoint[i][1]);
+                            Log.v("line", "currentpoint X = " + pointSet[j][0]+ " Y = " + pointSet[j][1]);
                             lastPoint[i][2] = 0;
                             break;
                         }
@@ -133,6 +133,7 @@ public class DrawView extends View {
                 }
             }
             for(int i = 0; i < pointSet.length; i++){
+                isFoundMatch = false;
                 for (int j = i+1; j < pointSet.length; j++){
                     if (pointSet[i][2] == pointSet[j][2]){
                         canvas.drawLine(pointSet[i][1], pointSet[i][0], pointSet[j][1], pointSet[j][0], mPaint);
@@ -150,17 +151,19 @@ public class DrawView extends View {
                 }
                 isFoundMatch = true;
             }
-            for(int i = pointSet.length-1; i >= 0; i--){
-                if ((pointSet[i][2] != 0) && !isTouchUp[(pointSet[i][2])]){
-                    lastPoint[(pointSet[i][2])][0] = pointSet[i][0];
-                    lastPoint[(pointSet[i][2])][1] = pointSet[i][1];
-                    lastPoint[(pointSet[i][2])][2] = 1;
-                }
+            if (!isTouchUp[(pointSet[pointSet.length-1][2])]) {
+                lastPoint[(pointSet[pointSet.length - 1][2])][0] = pointSet[pointSet.length - 1][0];
+                lastPoint[(pointSet[pointSet.length - 1][2])][1] = pointSet[pointSet.length - 1][1];
+                lastPoint[(pointSet[pointSet.length - 1][2])][2] = 1;
             }
-            for(int i = 1; i < 31; i++){
-                isTouchUp[i] = false;
-                Log.v("lastPoint info", "ID = "+ i + " X = " + lastPoint[i][0] + " Y = " + lastPoint[i][1] + " Value = " + lastPoint[i][2]);
-                //Log.v("TouchUp", "value = "+ isTouchUp[i]);
+            if(pointArrayIsSet) {
+                for (int i = 1; i < 31; i++) {
+                    isTouchUp[i] = false;
+                    if (lastPoint[i][2] == 1) {
+                        Log.v("lastPoint info", "ID = " + i + " X = " + lastPoint[i][0] + " Y = " + lastPoint[i][1] + " Value = " + lastPoint[i][2]);
+                    }
+                    //Log.v("TouchUp", "value = "+ isTouchUp[i]);
+                }
             }
         }
         if (mDrawBitmap != null) {
