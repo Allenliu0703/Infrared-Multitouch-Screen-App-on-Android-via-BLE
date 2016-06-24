@@ -7,6 +7,8 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.util.Log;
 import android.view.View;
+import java.util.ArrayList;
+import java.lang.Integer;
 import com.example.irmtble.*;
 
 public class DrawView extends View {
@@ -15,6 +17,9 @@ public class DrawView extends View {
     private Smooth mSmooth = new Smooth();
     private int[][] lastPoint;
     private int[][] pointSet;
+    private int[][] pointSettemp;
+    private int[][] temp;
+    private int[] position;
     private float mScreenXMax = 32768;
     private float mScreenYMax = 32768;
     private float mScreenWeight;
@@ -68,17 +73,76 @@ public class DrawView extends View {
         }
     }
     public void setPoints(int[][] Points){
-        pointSet = new int[Points.length][];
-        int i,j;
+        pointSet = new int[Points.length][3];
+        temp = new int[Points.length][3];
+        int num = 0;
+        position = new int[Points.length];
+        int i,j,x,y;
+        boolean isChecked;
         if (isSmooth){
-//            for(i = 0; i < Points.length; i++){
-//                for(j = 1; j < Points.length; j++){
-//                    if (Points[i][2] == Points[j][2]){
-//
-//                    }
-//                }
-//            }
             Log.v("debug", "Smooth");
+            for(i = 0; i < Points.length; i++){
+                Log.v("Times", "i = " + i);
+                num = 0;
+                isChecked = false;
+                position[num] = i;
+                for(int h = 0; h < i; h++){
+                    if(Points[i][2] == Points[h][2]){
+                        isChecked = true;
+                        break;
+                    }
+                }
+                if(isChecked == false) {
+                    for (j = i+1; j < Points.length; j++) {
+                        if (Points[i][2] == Points[j][2]) {
+                            num++;
+                            position[num] = j;
+                        }
+                    }
+                    if (num >= 1) {
+                        int size = num + 1;
+                        Log.v("size", "size = " + size);
+                        pointSettemp = new int[size][3];
+                        /* Add previous point
+                        if (lastPoint[Points[position[0]][2]][2] == 1) {
+                            int index = Points[position[0]][2];
+                            pointSettemp[0][0] = (int)(((double)mScreenHeight-(double)lastPoint[index][0])/(double)ratioX);;
+                            pointSettemp[0][1] = (int)((double)lastPoint[index][1]/ratioY);
+                            pointSettemp[0][2] = lastPoint[index][2];
+                            Log.v("Parameters", "ratioX = " + ratioX + "ratioY = "+ratioY + "screen height = " + mScreenHeight);
+                            Log.v("PointSettemp Last Infop", "ID = " + lastPoint[index][2] + " X = " + lastPoint[index][0] +" Y = " + lastPoint[index][1]);
+                            Log.v("PointSettemp Last Info", "ID = " + pointSettemp[0][2] + " X = " + pointSettemp[0][0] +" Y = " + pointSettemp[0][1]);
+                        }
+                        */
+                        for (x = 0; x < size; x++) {
+                            pointSettemp[x][0] = Points[position[x]][0];
+                            pointSettemp[x][1] = Points[position[x]][1];
+                            pointSettemp[x][2] = Points[position[x]][2];
+                            Log.v("PointSettemp Info", "ID = " + pointSettemp[x][2] + " X = " + pointSettemp[x][0] +" Y = " + pointSettemp[x][1]);
+                        }
+                        temp = mSmooth.SmoothLine(pointSettemp);
+                        for (y = 0; y < size; y++) {
+                            pointSet[position[y]][0] = temp[y][0];
+                            pointSet[position[y]][1] = temp[y][1];
+                            pointSet[position[y]][2] = temp[y][2];
+                            Log.v("temp Info", "ID = " + temp[y][2] + " X = " + temp[y][0] +" Y = " + temp[y][1]);
+                        }
+                    } else {
+                        pointSet[i][0] = Points[i][0];
+                        pointSet[i][1] = Points[i][1];
+                        pointSet[i][2] = Points[i][2];
+                    }
+                }
+            }
+            for (int l = 0; l < pointSet.length; l++)
+            {
+                pointSet[l][0] = (int)(mScreenHeight-pointSet[l][0] * ratioX);
+                pointSet[l][1] = (int)(pointSet[l][1] * ratioY);
+                Log.v("PointSet Info", "ID = " + pointSet[l][2] + " X = " + pointSet[l][0] +" Y = " + pointSet[l][1]);
+            }
+
+
+            /*
             pointSet = mSmooth.SmoothLine(Points);
             int l;
             for (l = 0; l < pointSet.length; l++)
@@ -87,6 +151,7 @@ public class DrawView extends View {
                 pointSet[l][1] = (int)(pointSet[l][1] * ratioY);
                 //Log.v("PointSet Info", "ID = " + pointSet[l][2] + " X = " + pointSet[l][0] +" Y = " + pointSet[l][1]);
             }
+            */
         }
         else {
             Log.v("debug", "No Smooth");
@@ -108,7 +173,7 @@ public class DrawView extends View {
         Log.v("Draw","xuebeng");
         for(int i = 1; i < 31; i++){
             if(isTouchUp[i]){
-                Log.v("TouchUp", " ID = " + i + " value = "+ isTouchUp[i]);
+                //Log.v("TouchUp", " ID = " + i + " value = "+ isTouchUp[i]);
                 lastPoint[i][0] = 0;
                 lastPoint[i][1] = 0;
                 lastPoint[i][2] = 0;
@@ -116,16 +181,16 @@ public class DrawView extends View {
         }
         if (pointSet != null && pointArrayIsSet) {
             for (int i = 0; i<pointSet.length; i++) {
-                Log.v("PointSet Info", "i = " + i + " ID = " + pointSet[i][2] + " X = " + pointSet[i][0] +" Y = " + pointSet[i][1]);
+                //Log.v("PointSet Info", "i = " + i + " ID = " + pointSet[i][2] + " X = " + pointSet[i][0] +" Y = " + pointSet[i][1]);
             }
             for(int i = 1; i < 31; i++){
                 if(lastPoint[i][2] == 1){
-                    Log.v("lastPoint", " ID = " + i + " lastPoint = " + lastPoint[i][2]);
+                    //Log.v("lastPoint", " ID = " + i + " lastPoint = " + lastPoint[i][2]);
                     for(int j = 0; j < pointSet.length; j++){
                         if(pointSet[j][2] == i){
                             canvas.drawLine(pointSet[j][1], pointSet[j][0], lastPoint[i][1], lastPoint[i][0], mPaint);
-                            Log.v("line", "lastpoint i = " + i + " X = " + lastPoint[i][0]+ " Y = " + lastPoint[i][1]);
-                            Log.v("line", "currentpoint X = " + pointSet[j][0]+ " Y = " + pointSet[j][1]);
+                            //Log.v("line", "lastpoint i = " + i + " X = " + lastPoint[i][0]+ " Y = " + lastPoint[i][1]);
+                            //Log.v("line", "currentpoint X = " + pointSet[j][0]+ " Y = " + pointSet[j][1]);
                             lastPoint[i][2] = 0;
                             break;
                         }
@@ -160,7 +225,7 @@ public class DrawView extends View {
                 for (int i = 1; i < 31; i++) {
                     isTouchUp[i] = false;
                     if (lastPoint[i][2] == 1) {
-                        Log.v("lastPoint info", "ID = " + i + " X = " + lastPoint[i][0] + " Y = " + lastPoint[i][1] + " Value = " + lastPoint[i][2]);
+                        //Log.v("lastPoint info", "ID = " + i + " X = " + lastPoint[i][0] + " Y = " + lastPoint[i][1] + " Value = " + lastPoint[i][2]);
                     }
                     //Log.v("TouchUp", "value = "+ isTouchUp[i]);
                 }

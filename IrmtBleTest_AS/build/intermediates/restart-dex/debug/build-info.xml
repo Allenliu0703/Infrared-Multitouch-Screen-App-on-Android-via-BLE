@@ -4,34 +4,34 @@
     api-level="21"
     density="mdpi"
     format="7"
-    timestamp="33850104331743"
-    token="5957108833295925599" >
+    timestamp="9975320766521"
+    token="6984411363979854658" >
 
     <task
         name="javac"
-        duration="26" />
+        duration="47" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="3" />
+        duration="8" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1" />
 
     <artifact
-        location="/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBleTest_AS/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+        location="/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/Infrared-Multitouch-Screen-App-on-Android-via-BLE/IrmtBleTest_AS/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
         type="DEX" />
 
-    <build timestamp="28251878798166" >
+    <build timestamp="9051570233399" >
         <artifact
-            location="/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBleTest_AS/build/outputs/apk/IrmtBleTest_AS-debug.apk"
+            location="/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/Infrared-Multitouch-Screen-App-on-Android-via-BLE/IrmtBleTest_AS/build/outputs/apk/IrmtBleTest_AS-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="33850104331743" >
+    <build timestamp="9975320766521" >
         <artifact
-            location="/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBleTest_AS/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+            location="/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/Infrared-Multitouch-Screen-App-on-Android-via-BLE/IrmtBleTest_AS/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
             type="DEX" />
     </build>
 

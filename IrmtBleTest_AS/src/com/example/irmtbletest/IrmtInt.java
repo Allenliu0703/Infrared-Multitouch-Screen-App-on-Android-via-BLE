@@ -64,7 +64,7 @@ public class IrmtInt implements IrmtInterface {
 
 	@Override
 	public void onTouchUp(List<TouchPoint> mTouchList) {
-        Log.v("onTouchUpList", "Enter");
+        //Log.v("onTouchUpList", "Enter");
         for (TouchPoint mTP:mTouchList) {
 			Log.v(TAG, "onTouchUp  " + mTP.pointId + ": " + mTP.pointColor);
 			touchstatus[mTP.pointId] = -1;
@@ -94,11 +94,6 @@ public class IrmtInt implements IrmtInterface {
 
 	@Override
 	public void onTouchDown(List<TouchPoint> mTouchList) {
-//        for (int i = 0; i < pointsNum; i++){
-//            points[i][2] = 0;
-//            points[i][1] = 0;
-//            points[i][0] = 0;
-//        }
 		for (TouchPoint mTP : mTouchList) {
 			if (pointsCurNum < pointsNum) {
 				points[pointsCurNum][0] = mTP.pointX;

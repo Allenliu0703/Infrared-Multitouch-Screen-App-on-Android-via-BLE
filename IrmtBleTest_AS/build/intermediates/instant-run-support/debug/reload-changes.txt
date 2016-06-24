@@ -1,2 +1,2 @@
-CHANGED,/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBleTest_AS/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
-CHANGED,/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBleTest_AS/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/irmtbletest/IrmtInt$override.class
+CHANGED,/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/Infrared-Multitouch-Screen-App-on-Android-via-BLE/IrmtBleTest_AS/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
+CHANGED,/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/Infrared-Multitouch-Screen-App-on-Android-via-BLE/IrmtBleTest_AS/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/irmtbletest/DrawView$override.class

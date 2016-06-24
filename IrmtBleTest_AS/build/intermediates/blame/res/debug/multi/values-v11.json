@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBleTest_AS/build/intermediates/res/merged/debug/values-v11/values-v11.xml",
+        "outputFile": "/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/Infrared-Multitouch-Screen-App-on-Android-via-BLE/IrmtBleTest_AS/build/intermediates/res/merged/debug/values-v11/values-v11.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 187
                 },
                 "from": {
-                    "file": "/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/IrmtBleTest_AS/res/values-v11/styles.xml",
+                    "file": "/Users/Allen/OneDrive/精研电子/Android/IRMT BLE Android App/Infrared-Multitouch-Screen-App-on-Android-via-BLE/IrmtBleTest_AS/res/values-v11/styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
